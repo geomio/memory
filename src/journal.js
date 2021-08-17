@@ -7,3 +7,7 @@ export default function Journal(name, date, entry) {
 Journal.prototype.testLog = function() {
   return console.log("this is a test message")
 };
+
+Journal.prototype.findVowel = function() {
+  
+};
