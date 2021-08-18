@@ -1,0 +1,33 @@
+#row1 {
+  text-align: center; 
+}
+
+#formRow {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(152, 106, 173);
+  border-radius: 3px;
+}
+
+#outputLabel {
+  text-align: center;
+}
+
+#outputRow{
+  text-align: center;
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 15px;
+  background-color: rgb(99, 201, 201);
+  border-radius: 3px;
+  margin: 15px;
+}
+
+#h1Lable1 {
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(148, 238, 186);
+  border-radius: 3px;
+}

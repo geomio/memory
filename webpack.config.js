@@ -15,7 +15,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin ({
-      title: 'CHANGE NAME PLEASE',
+      title: 'journal_project',
       template: './src/index.html',
       inject: 'body'
     })

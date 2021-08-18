@@ -2,10 +2,13 @@
 <html lang="en-US">
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <title>CHANGE NAME PLEASE</title>
+  <title>journal_project</title>
 </head>
 <body>
   <div class="container">
+    <div class="jumbotron">
+      <h2>text is here</h2>
+    </div>
     <div class="row" id="row1">
       <div class="col-md-12">
         <h1>The Text word and vowel counter</h1>
@@ -13,7 +16,7 @@
     </div>
     <div class="row" id="formRow">
       <div class="col-md-12">
-        <form>
+        <form id="userTextForm">
           <div class="form-group">
             <label for="userNameInput">Name</label>
             <input type="text" class="form-control" id="userNameInput">
@@ -26,15 +29,17 @@
         </form>
       </div>
     </div>
-    <div class="row">
-      <h1>User data Will be displayed below</h1>
+    <div class="row" id="outputLabel">
+      <div class="col-md-12">
+        <h1 id="h1Lable1">User data Will be displayed below</h1>
+      </div>
     </div>
     <div class="row" id="outputRow">
       <div class="col-md-6" id="userTextOutput">
         <h1>text will go here</h1>
       </div>
       <div class="col-md-6" id="userTextCountOutputs">
-        <counts will go here></counts>
+        <h1>Counts will go here</h1>
       </div>
     </div>
   </div>
