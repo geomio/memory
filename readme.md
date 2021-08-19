@@ -25,26 +25,54 @@
   Expected Output: 1```
    -->
    
-   Test: it should return true if letter is a vowel
-   Code:
-   findVowel("a")
-   findVowel("e")
-   findVowel("i")
-   findVowel("o")
-   findVowel("u")
-   Expected Output: true
+  Test: it should return true if letter is a vowel
+  Code:
+  findVowel("a")
+  findVowel("e")
+  findVowel("i")
+  findVowel("o")
+  findVowel("u")
+  Expected Output: true
    
-   Test: it should return false if letter is not a vowel
-   Code:findVowel("b")
-   Expected Output: false
+  Test: it should return false if letter is not a vowel
+  Code:
+  findVowel("b")
+  Expected Output: false
    
-   Test: it should return true if letter is consonant.
-   code:
-   findConsonant("b")
-   findConsonant("c")
-   Expected Output: true
+  Test: it should return true if letter is consonant.
+  code:
+  findConsonant("b")
+  findConsonant("c")
+  Expected Output: true
+  
+  Test: it should return false if letter is not a consonant.
+  code:
+  findConsonant("a")
+  findConsonant("e")
    
-   Test: it should return false if letter is not a consonant.
-   code:
-   findConsonant("a")
-   findConsonant("e")
+  Test: "It should return true if  vowel is upper or lower case"
+  Code:  
+  findVowel("A")
+  findVowel("E")
+  Expected Output: true
+
+  Test: "It should return false if consonant is upper or lower case"
+  Code:  
+  findVowel("B")
+  Expected Output: false
+  
+  Test: "It should return true if  consonant is upper or lower case"
+  Code:  
+  findConsonant("B")
+  findConsonant("C")
+  Expected Output: true
+
+  Test: "It should return false if vowel is upper or lower case"
+  Code:  
+  findVowel("A")
+  Expected Output: false
+
+  Test: "it should count user vowel, and consonants and words
+  Code:
+  findVowelConsonantCount("Cat")
+  Expected Output: Vowel Count = 1 Consonants count = 2

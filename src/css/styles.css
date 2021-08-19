@@ -31,3 +31,7 @@
   background-color: rgb(148, 238, 186);
   border-radius: 3px;
 }
+
+#countList {
+  list-style: none;
+}
