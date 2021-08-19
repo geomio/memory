@@ -15,6 +15,8 @@ $(document).ready(function() {
     // inputText.toLowerCase();
     const userEntry = new Journal(inputName, inputText);
     $("#outputUserText").html(inputText)
+    $("#userNameOutput").html(inputName)
+    $("#userNameShow").show()
     // const userArray = userEntry.inputText.split(" ");
     //the function or prototype to loop through text to find counts
     // the function to show and display all things
@@ -24,6 +26,9 @@ $(document).ready(function() {
     // console.log(userEntry.findConsonant('B'));
     // console.log(userEntry.findConsonant('O'));
     userEntry.findLetterCount()
+    $("#vowelNumber").html(userEntry.vowelCount)
+    $("#consonantsNumber").html(userEntry.consonantCount)
+    $("#wordNumber").html(userEntry.wordCount)
     console.log(userEntry);
     
   });
