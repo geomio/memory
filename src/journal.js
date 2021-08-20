@@ -1,10 +1,11 @@
 
 export default function Journal(name, entry) {
   this.name = name;
-  this.entry =entry;
+  this.entry = entry;
   this.wordCount = 0;
   this.vowelCount = 0;
   this.consonantCount = 0;
+  this.teaser  = ""
 }
 
 Journal.prototype.testLog = function() {
@@ -43,12 +44,18 @@ Journal.prototype.findLetterCount = function() {
       } else if ( this.findVowel(letter)) {
         vowelCounter ++
       }
-      console.log("vowels: ", vowelCounter, " consonants: ", consonantCounter)
     }); 
   }
   this.vowelCount = vowelCounter
   this.consonantCount = consonantCounter
 }
 
-// let newJournal = new Journal("bob", "the cat Runs")
-// newJournal.findLetterCount()
+Journal.prototype.teaserOutput = function() {
+  let userTextShow = this.entry.split(" ")
+  if ( userTextShow.length >= 7) {
+    userTextShow.length = 8
+    this.teaser = userTextShow.join(" ")
+  } else {
+    this.teaser = userTextShow.join(" ")
+  }
+}

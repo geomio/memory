@@ -11,6 +11,12 @@
 
 #outputLabel {
   text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 4em;
+  font-weight: bolder;
+  font-family:Arial, Helvetica, sans-serif;
+  color: black;
 }
 
 #outputRow{
@@ -25,7 +31,7 @@
   margin: 15px;
 }
 
-#h1Lable1 {
+#h1Label1 {
   text-align: center;
   padding: 5px;
   background-color: rgb(148, 238, 186);
@@ -39,4 +45,68 @@
 
 #userNameShow {
   display: none;
+  background-color: tomato;
+  font-size: large;
+  color: antiquewhite;
+}
+
+li {
+  font-size: large;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#vowelOutputCss {
+  background-color: lightcoral;
+}
+
+#consonantsOutputCss {
+  background-color: lightgreen;
+}
+
+#wordOutputCss {
+  background-color: yellowgreen;
+}
+
+#userTextCss {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  background-color: rgb(234, 250, 89);
+}
+
+#countedDisplayHead {
+  background-color: crimson; 
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+#textDisplayHead {
+  background-color: darkblue;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.formTextCss {
+  font-weight: bold;
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#countList {
+  display: none;
+}
+
+#welcome {
+  font-size: 12em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: tomato;
+  border-radius: 4px;
+}
+
+.form {
+  padding: 10px;
+  margin: 10px;
 }

@@ -72,7 +72,22 @@
   findVowel("A")
   Expected Output: false
 
-  Test: "it should count user vowel, and consonants and words
+  Test: "it should count user consonants 
   Code:
   findVowelConsonantCount("Cat")
-  Expected Output: Vowel Count = 1 Consonants count = 2
+  Expected Output: Consonants count = 2
+  
+  Test: "it should count user vowel
+  Code:
+  findVowelConsonantCount("Cat")
+  Expected Output: Vowel Count = 1
+  
+  Test: "it should count user words
+  Code:
+  findVowelConsonantCount("Cat")
+  Expected Output: Word Count = 1
+  
+  Test: "It should display up to 8 words of user text"
+  Code:
+  teaserOutput("here are words one two three this is a string that is so long")
+  Expected Output: it will show user "here are words one two three this is"

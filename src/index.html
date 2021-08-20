@@ -7,7 +7,7 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h2>text is here</h2>
+      <h2 id="welcome">Welcome</h2>
     </div>
     <div class="row" id="row1">
       <div class="col-md-12">
@@ -18,11 +18,11 @@
       <div class="col-md-12">
         <form id="userTextForm">
           <div class="form-group">
-            <label for="userNameInput">Name</label>
+            <label for="userNameInput" class="formTextCss">Name</label>
             <input type="text" class="form-control" id="userNameInput">
           </div>
           <div class="form-group">
-            <label for="enterTextHere">Enter your text</label>
+            <label for="enterTextHere" class="formTextCss">Enter your text</label>
             <textarea class="form-control" id="enterTextHere" rows="5"></textarea>
           </div>
           <button type="submit">Submit text</button>
@@ -31,21 +31,21 @@
     </div>
     <div class="row" id="outputLabel">
       <div class="col-md-12">
-        <h1 id="h1Lable1">User data Will be displayed below</h1>
+        <h1 id="h1Label1">User data Will be displayed below</h1>
       </div>
     </div>
     <div class="row" id="outputRow">
       <div class="col-md-6" id="userTextOutput">
-        <h1>text will go here</h1>
+        <h1 id="textDisplayHead">text preivew will go here</h1>
         <h2 id="userNameShow">Hello <span id="userNameOutput"></span></h2>
-        <p><span id="outputUserText"></span></p>
+        <p id="userTextCss"><span id="outputUserText"></span></p>
       </div>
       <div class="col-md-6" id="userTextCountOutputs">
-        <h1>Counts will go here</h1>
+        <h1 id="countedDisplayHead">Counts will go here</h1>
         <ul id="countList">
-          <li>Vowels: <span id="vowelNumber"></span></li>
-          <li>Consonants: <span id="consonantsNumber"></span></li>
-          <li>Words: <span id="wordNumber"></span></li>
+          <li id="vowelOutputCss">Vowels: <span id="vowelNumber"></span></li>
+          <li id="consonantsOutputCss">Consonants: <span id="consonantsNumber"></span></li>
+          <li id="wordOutputCss">Words: <span id="wordNumber"></span></li>
         </ul>
       </div>
     </div>
